@@ -11,7 +11,7 @@ import java.util.Map;
 
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
 @EnableBatchProcessing
-@EnableMongoRepositories(basePackages = "com.kraken.batch")
+@EnableMongoRepositories(basePackages = "com.wgcisotto.bitcoin.transaction.batch")
 public class BatchApplication {
 
 	private static final Map<String, String> customers = Map.ofEntries(
