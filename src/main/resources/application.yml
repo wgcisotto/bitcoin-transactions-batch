@@ -1,0 +1,12 @@
+spring:
+  data:
+    mongodb:
+      database: deposits-db
+      host: localhost
+      port: 27017
+processing:
+  chunk: 10
+transaction:
+  files:
+    location: C:\work\workspace\crypto_dev\kraken_challenge\solution\files\
+    pattern: transactions-(.*).json
